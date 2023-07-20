@@ -1,0 +1,13 @@
+nav ul li {
+display: inline-block;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+nav ul li:first-child {
+  margin-left: 0px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
