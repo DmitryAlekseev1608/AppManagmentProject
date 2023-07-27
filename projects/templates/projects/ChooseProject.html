@@ -1,0 +1,17 @@
+{% extends 'projects/main.html' %}
+
+{% block content %}
+
+<div class="d-grid gap-3">
+ <button type="button" class="btn btn-outline-dark btn-lg mr-4" onclick=relocate_home()>Работа с отчетами по ПИР</button>
+
+ <script>
+function relocate_home()
+{
+     location.href = "TablesReport";
+}
+</script>
+
+ <button type="button" class="btn btn-outline-dark btn-lg">Работа со среднесрочными планами</button>
+</div>
+{% endblock %}
