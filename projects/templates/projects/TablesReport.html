@@ -1,10 +1,10 @@
 {% extends 'projects/main.html' %}
+{% load django_tables2 %}
 
 {% block content %}
 
-<table class="table table-bordered">
-  ...
-</table>
+<caption>Отчет по реализации ПИР</caption>
 
+{% render_table table %}
 
 {% endblock %}

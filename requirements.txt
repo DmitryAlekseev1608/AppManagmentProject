@@ -1,0 +1,5 @@
+django-money
+datetime
+psycopg
+django_tables2
+django-htmx
