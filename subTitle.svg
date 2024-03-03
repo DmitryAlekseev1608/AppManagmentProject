@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="80">
+  <style type="text/css">
+  .tg  {border-collapse:collapse;border-color:#aaa;border-spacing:0;}
+  .tg td{background-color:#fff;border-color:#aaa;border-style:solid;border-width:0px;color:#333;
+    font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+  .tg th{background-color:#f38630;border-color:#aaa;border-style:solid;border-width:0px;color:#fff;
+    font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+  .tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+  .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+  </style>
+  <table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-c3ow">Наименование<br>работ</th>
+      <th class="tg-c3ow">Описание<br>результата</th>
+      <th class="tg-c3ow">Срок<br>выполнения</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-0pky">Подготовка и обучение нейронных сетей:<br>- сбор датасета, предобработка данных;<br>- обучение нейонных сетей на базе YOLOv8;<br>- обучение нейронной сети на базе PoseC3d с подбором отдельных<br>предобученных детекторов человека под нее и отдельной предобученной<br>модели по распознаванию скелета.<br>Проработка архитектуры будущего сервиса.</td>
+      <td class="tg-0pky">Обученные нейронные сети:<br>- большие сумки;<br>- каски;<br>- светоотражающие жилеты;<br>- транспорт;<br>- распознавание скелета человека (17 landscapes);<br>- распознавание движений по скелету;<br>- упавшие люди.<br>Архитектура сервиса.</td>
+      <td class="tg-c3ow">01.04.2024</td>
+    </tr>
+    <tr>
+      <td class="tg-0pky">Разработка back части на FastApi и OpenCV betta-версия продукта.<br>Проработка front части на Angular или поиск аналогов, если выбранный<br><span style="font-weight:400;font-style:normal">Angular не сможет обеспечить нужный функционал. Улучшение качества</span><br><span style="font-weight:400;font-style:normal">моделей (</span>при необходимости<span style="font-weight:400;font-style:normal">).</span><br><span style="font-weight:400;font-style:normal">Разработка телеграмм-бота.</span><br><span style="font-weight:400;font-style:normal">Разработка БД на СУБД PostgreSQL.</span></td>
+      <td class="tg-0pky">Кодовая база betta-версия.<br>Улучшенные модели (при необходимости).</td>
+      <td class="tg-c3ow">01.05.2024</td>
+    </tr>
+    <tr>
+      <td class="tg-0pky">Встраивание в продукт различных open-source систем и доработка back<br>и front части (при необходимости и если успеем сделать основную часть):<br><span style="font-weight:500;font-style:normal">- Celery;</span><span style="font-weight:400;font-style:normal">- nginx;</span>- Redis;<span style="font-weight:400;font-style:normal">- firewall UFW</span>.<br><br><span style="font-style:italic">Если не успеем, то будем сдавать сервис для изолированных систем, где </span><br><span style="font-style:italic">ничего из этого использовать не получится.</span></td>
+      <td class="tg-0pky">Готовый сервис видеоаналитики.</td>
+      <td class="tg-c3ow">01.06.2024</td>
+    </tr>
+  </tbody>
+  </table>
+
+    <g class="title">
+        <rect rx="5" width="100%" height="80"></rect>
+        <text x="50%" y="50%" width="" font-weight="bold" fill="yellow" >TypeScript Course</text>
+    </g>
+</svg>
